@@ -27,7 +27,7 @@ $("body").on("click", ".ingredients-item--amount--icon", function(){
     console.log(window.totalAmount);
     reloadPrice();
 });
-var prices = {'Ananas': 20, 'Cibule': 15, 'Česnek': 15, 'Feferony': 15, 'Jalapeño': 15, 'Kukuřice': 15, 'Olivy': 20, 'Oregano': 0, 'Paprika': 15, 'Pórek': 15, 'Rajče': 20, 'Špenát': 15, 'Žampiony': 15,"Balkánský sýr": 15,"Camembert": 15,"Gran Moravia": 20,"Cheddar": 25,"Mozzarella": 25,"Niva": 15,"Tvarůžky": 30,"Uzený eidam": 15,"Anglická slanina": 25,"Klobása": 25,"Kuřecí maso": 30,"Paprikový salám": 20,"Šunka": 25,"Vysočina": 15,"BBQ omáčka (zig-zag)": 15,"Čedarová omáčka (zig-zag)": 30,"Hranolky": 20,"Kari": 0,"Sriracha omáčka (zig-zag)": 15,"Vejce": 15};
+var prices = {'Ananas': 20, 'Cibule': 15, 'Česnek': 15, 'Feferony': 15, 'Jalapeño': 15, 'Kukuřice': 15, 'Olivy': 20, 'Oregano': 0, 'Paprika': 15, 'Pórek': 15, 'Rajče': 20, 'Špenát': 15, 'Žampiony': 15,"Balkánský sýr": 15,"Camembert": 15,"Gran Moravia": 20,"Cheddar": 25,"Mozzarella": 25,"Niva": 15,"Tvarůžky": 30,"Uzený eidam": 15,"Anglická slanina": 25,"Klobása": 25,"Kuřecí maso": 30,"Paprikový salám": 20,"Šunka": 25,"Vysočina": 15,"BBQ omáčka (zig-zag)": 15,"Čedarová omáčka (zig-zag)": 40,"Hranolky": 20,"Kari": 0,"Sriracha omáčka (zig-zag)": 15,"Vejce": 15};
 $("body").on("click", ".is-button", function(){
     window.totalAmount = 0;
     window.pizzaName = "";
